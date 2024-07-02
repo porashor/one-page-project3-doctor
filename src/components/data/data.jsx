@@ -136,3 +136,82 @@ export const working = [
         image: img2
     },
 ]
+
+
+
+import doc1 from "../../assets/doctor/doc1.jpg";
+import doc2 from "../../assets/doctor/doc2.jpg";
+import doc3 from "../../assets/doctor/doc3.jpg";
+import doc4 from "../../assets/doctor/doc4.jpg";
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+export const doctor = [
+    {
+        name: "Sussie Wolff",
+        title: "Pediatrician",
+        details: "Proin consequat, at commodo. Lorem ipsum dolor sit amet, consectetur adipiscing elit.",
+        img: doc1
+    },
+    {
+        name: "Dental surgeon",
+        title: "Ashley Willson",
+        details: "Vivamus sapien ligula, tempus ac ipsum ac, mattis luctus magna.  Proin consequat, at commodo.",
+        img: doc2
+    },
+    {
+        name: "Cosmetic Surgeon",
+        title: "Gabriela Beckett",
+        details: "Donec varius libero tortor. Proin consequat, at commodo eu luctus ipsum aliquet ut.",
+        img: doc3
+    },
+    {
+        name: "George Button",
+        title: "General Doctor",
+        details: "Curabitur lobortis, eros eu efficitur lacinia. Proin consequat, at commodo velit magna cursus nisi.",
+        img: doc4
+    },
+]
+
+import medi1 from "../../assets/medi/medi1.jpg"
+import medi2 from "../../assets/medi/medi2.jpg"
+import medi3 from "../../assets/medi/medi3.jpg"
+
+
+
+export const medi = [
+    {
+        date: "October 18, 2015",
+        name: "2015 Best USA Hospitals and Clinics",
+        details: "Eodem modo typi, qui nunc nobis videntur parum clari, fiant sollemnes in futurum. Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat. Ut wisi enim ad minim veniam, quis nostrud exerci tation ulla.",
+        img : medi1
+    },
+    {
+        date: "September 22, 2015",
+        name: "Are durgs the best solution?",
+        details: "Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat. Ut wisi enim ad minim veniam, quis nostrud exerci tation ulla. Eodem modo typi, qui nunc nobis videntur parum clari, fiant sollemnes in futurum",
+        img : medi2
+    },
+    {
+        date: "November 14, 2015",
+        name: "Negative statin stories add to heart health risk",
+        details: "Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat. Ut wisi enim ad minim veniam, quis nostrud exerci tation ulla. Eodem modo typi, qui nunc nobis videntur parum clari, fiant sollemnes in futurum",
+        img : medi3
+    },
+]

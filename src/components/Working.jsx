@@ -6,19 +6,8 @@ const Working = () => {
   return (
     <div>
       <Container>
-        <div className='grid grid-cols-1 md:grid-cols-[1fr_3fr] items-center gap-3'>
-            <div className='px-3 py-10 text-center bg-slate-300 border border-slate-400'>
-                <h1 className='text-4xl font-bold px-10 pb-5'>Working hours</h1>
-                <p className='pb-5'>Lorem ipsum dolor, Ducimus voluptatem totam nulla, mollitia soluta obcaecati?</p>
-                <div className='flex flex-col justify-center gap-3'>
-                    {day.map((item, index)=>(
-                        <div key={index} className='flex justify-between items-center gap-5 border-b border-slate-600 py-3'>
-                            <div className='font-bold'>{item.name}</div>
-                            <div className='text-slate-500'>{item.time}</div>
-                        </div>
-                    ))}
-                </div>
-            </div>
+        <div className='grid grid-cols-1 md:grid-cols-[3fr_1fr] items-center gap-3'>
+            
             <div className='grid grid-cols-1 md:grid-cols-3 items-center gap-3'>
                 {
                     working.map((item, index)=>(
@@ -33,6 +22,18 @@ const Working = () => {
                         </div>
                     ))
                 }
+            </div>
+            <div className='px-3 py-10 text-center bg-slate-300 border border-slate-400'>
+                <h1 className='text-4xl font-bold px-10 pb-5'>Working hours</h1>
+                <p className='pb-5'>Lorem ipsum dolor, Ducimus voluptatem totam nulla, mollitia soluta obcaecati?</p>
+                <div className='flex flex-col justify-center gap-3'>
+                    {day.map((item, index)=>(
+                        <div key={index} className='flex justify-between items-center gap-5 border-b border-slate-600 py-3'>
+                            <div className='font-bold'>{item.name}</div>
+                            <div className='text-slate-500'>{item.time}</div>
+                        </div>
+                    ))}
+                </div>
             </div>
         </div>
       </Container>

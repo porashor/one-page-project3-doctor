@@ -9,7 +9,7 @@ import { CgTwitter } from 'react-icons/cg';
 const Navbar = () => {
   return (
     <div className='sticky top-0 left-0 right-0 bg-white/90 backdrop-blur-md z-[100]'>
-        <div className='border-b border-slate-200'>
+        <div className='border-b border-slate-200 py-5'>
         <Container>
             <div className='grid grid-cols-[4fr_3fr_3fr_3fr] items-center justify-between gap-2  '>
                 <div className='text-4xl font-bold uppercase text-yellow-400'>Logo</div>
@@ -39,7 +39,7 @@ const Navbar = () => {
         </div>
         <div className='border-b border-slate-200'>
             <Container>
-                <div className='flex items-center justify-between gap-2'>
+                <div className='flex items-center justify-between gap-2 '>
                     <div>
                         <ul className='flex gap-3 uppercase text-[18px] font-semibold text-slate-700'>
                             {
@@ -55,7 +55,7 @@ const Navbar = () => {
                     </div>
                     {/* //search bar is here */}
                     <div className='flex items-center justify-between gap-4'>
-                        <div className='flex items-center justify-start border-x border-slate-400 py-2 px-4'>
+                        <div className='flex items-center justify-start border-x border-slate-400 py-5 px-4'>
                             <input type="text" placeholder='Looking for...'  className='text-xs outline-none text-black'/>
                             <BiSearch/>
                         </div>
