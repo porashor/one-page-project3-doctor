@@ -8,6 +8,8 @@ import Working from './components/Working';
 import Banner from './components/Banner';
 import Doctor from './components/Doctor';
 import Latest from './components/Latest';
+import Testimonial from './components/Testimonial';
+import Foother from './components/Foother';
 
 
 const App = () => {
@@ -20,6 +22,8 @@ const App = () => {
       <Banner/>
       <Doctor/>
       <Latest/>
+      <Testimonial/>
+      <Foother/>
     </div>
   )
 }

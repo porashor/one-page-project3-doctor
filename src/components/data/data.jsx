@@ -215,3 +215,42 @@ export const medi = [
         img : medi3
     },
 ]
+
+import sign1 from "../../assets/sign/sign-1.png"
+import sign2 from "../../assets/sign/sign-3.png"
+
+export const testimonial = [
+    {
+        name: "Palua Smith",
+        details: "Donec eros massa, gravida ac lectus et, pharetra interdum lectus. Sed vel scelerisque quam, id fringilla ante. Vivamus sagittis velit quis dictum ultricies. Quisque posuere rhoncus erat, sit amet aliquet augue.",
+        img: doc1,
+        sign: sign1
+    },
+    {
+        name: "Ann Clark",
+        details: "Quisque posuere rhoncus erat, sit amet aliquet augue. Nunc eleifend ornare venenatis. Donec eros massa, gravida ac lectus et, pharetra interdum lectus. Sed vel scelerisque quam, id fringilla ante.",
+        img: doc3,
+        sign: sign2
+    },
+]
+
+import prod from "../../assets/product/po1.jpg"
+import pro2 from "../../assets/product/po2.jpg"
+export const product = [
+    {
+        name: "room chair",
+        tk : "$500",
+        img: prod
+    },
+    {
+        name: "weight scale",
+        tk : "$200",
+        img: pro2
+    },
+]
+
+
+
+export const foother1 = [
+    "Appointments","Working hours","Cost calculator","Procedures","Special offers","Testimonials"
+]
