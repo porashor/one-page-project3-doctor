@@ -11,7 +11,7 @@ const Doctor = () => {
         <div className='grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 items-center justify-between gap-10 py-10'>
             {
                 doctor.map((item,index)=>(
-                    <div key={index} className=''>
+                    <div key={index} className='' data-aos="fade-up" data-aos-delay={item.data}>
                         <div className='relative pb-6'>
                         <img src={item.img} alt="" width={300} height={320} className=' cover' />
                         <div className='flex gap-2 absolute -bottom-[10px] px-2'>

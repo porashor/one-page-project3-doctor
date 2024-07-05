@@ -13,7 +13,7 @@ const Hero = () => {
   };
   return (
     <div className='h-screen w-full relative'>
-      <div>
+      <div data-aos="fade-in" data-aos-delay="500">
         <Slider {...settings}>
         {hero.map((item,index)=>(
           <div key={index} className='min-h-[500px]'>

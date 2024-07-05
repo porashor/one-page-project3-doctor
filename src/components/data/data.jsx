@@ -121,19 +121,22 @@ export const working = [
         name: "Dentist",
         subName:"For your child whitest teeths",
         details: "Praesent convallis tortor et enim laoreet, vel consectetur purus latoque penatibus et dis parturient.",
-        image: img
+        image: img,
+        data: "100"
     },
     {
         name: "Cardiologist",
         subName:"Got a broken heart?",
         details: "Nullam eleifend lectus a tortor interdum, non sodales ante vehicula. Proin consequat, at commodo.",
-        image: img1
+        image: img1,
+        data: "200"
     },
     {
         name: "Chiropractor",
         subName:"Neck or back pain",
         details: "Duis scelerisque faucibus nisi sed lacinia. Curabitur ipsum elit, cursus id dui quis, dictum laoreet neque.",
-        image: img2
+        image: img2,
+        data: "300"
     },
 ]
 
@@ -167,25 +170,29 @@ export const doctor = [
         name: "Sussie Wolff",
         title: "Pediatrician",
         details: "Proin consequat, at commodo. Lorem ipsum dolor sit amet, consectetur adipiscing elit.",
-        img: doc1
+        img: doc1,
+        data: "200"
     },
     {
         name: "Dental surgeon",
         title: "Ashley Willson",
         details: "Vivamus sapien ligula, tempus ac ipsum ac, mattis luctus magna.  Proin consequat, at commodo.",
-        img: doc2
+        img: doc2,
+        data: "300"
     },
     {
         name: "Cosmetic Surgeon",
         title: "Gabriela Beckett",
         details: "Donec varius libero tortor. Proin consequat, at commodo eu luctus ipsum aliquet ut.",
-        img: doc3
+        img: doc3,
+        data: "400"
     },
     {
         name: "George Button",
         title: "General Doctor",
         details: "Curabitur lobortis, eros eu efficitur lacinia. Proin consequat, at commodo velit magna cursus nisi.",
-        img: doc4
+        img: doc4,
+        data: "500"
     },
 ]
 
