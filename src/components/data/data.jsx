@@ -171,28 +171,28 @@ export const doctor = [
         title: "Pediatrician",
         details: "Proin consequat, at commodo. Lorem ipsum dolor sit amet, consectetur adipiscing elit.",
         img: doc1,
-        data: "200"
+        data: "500"
     },
     {
         name: "Dental surgeon",
         title: "Ashley Willson",
         details: "Vivamus sapien ligula, tempus ac ipsum ac, mattis luctus magna.  Proin consequat, at commodo.",
         img: doc2,
-        data: "300"
+        data: "600"
     },
     {
         name: "Cosmetic Surgeon",
         title: "Gabriela Beckett",
         details: "Donec varius libero tortor. Proin consequat, at commodo eu luctus ipsum aliquet ut.",
         img: doc3,
-        data: "400"
+        data: "700"
     },
     {
         name: "George Button",
         title: "General Doctor",
         details: "Curabitur lobortis, eros eu efficitur lacinia. Proin consequat, at commodo velit magna cursus nisi.",
         img: doc4,
-        data: "500"
+        data: "800"
     },
 ]
 
@@ -207,19 +207,22 @@ export const medi = [
         date: "October 18, 2015",
         name: "2015 Best USA Hospitals and Clinics",
         details: "Eodem modo typi, qui nunc nobis videntur parum clari, fiant sollemnes in futurum. Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat. Ut wisi enim ad minim veniam, quis nostrud exerci tation ulla.",
-        img : medi1
+        img : medi1,
+        aos: "300"
     },
     {
         date: "September 22, 2015",
         name: "Are durgs the best solution?",
         details: "Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat. Ut wisi enim ad minim veniam, quis nostrud exerci tation ulla. Eodem modo typi, qui nunc nobis videntur parum clari, fiant sollemnes in futurum",
-        img : medi2
+        img : medi2,
+        aos: "500"
     },
     {
         date: "November 14, 2015",
         name: "Negative statin stories add to heart health risk",
         details: "Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat. Ut wisi enim ad minim veniam, quis nostrud exerci tation ulla. Eodem modo typi, qui nunc nobis videntur parum clari, fiant sollemnes in futurum",
-        img : medi3
+        img : medi3,
+        aos: "700"
     },
 ]
 

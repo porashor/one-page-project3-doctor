@@ -7,7 +7,7 @@ import { BsMessenger } from 'react-icons/bs'
 
 const Foother = () => {
   return (
-    <div className='bg-slate-800 text-white'>
+    <div className='bg-slate-800 text-white' data-aos="fade-up" data-aos-delay="2000">
       <div className='py-10'>
         <Container>
             <div className='grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 items-start gap-4'>
