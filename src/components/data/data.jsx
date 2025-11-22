@@ -19,23 +19,23 @@ export const detailsNav = [
 export const nav = [
     {
         name: "Home",
-        links: "home"
+        links: "#"
     },
     {
         name: "About us ",
-        links: "about"
+        links: "#"
     },
     {
         name: "Pages",
-        links: "pages"
+        links: "#"
     },
     {
         name: "Blogs/News",
-        links: "blogs"
+        links: "#"
     },
     {
         name: "Shop",
-        links: "shop"
+        links: "#"
     },
 ]
 
